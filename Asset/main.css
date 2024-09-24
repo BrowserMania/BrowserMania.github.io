@@ -9,9 +9,10 @@ html{
 
 /*Master Head*/
 .Master_Head {
-    padding: 60px;
-    text-align: center;
-    color: white;
+  box-sizing: content-box;
+  padding: 60px;
+  text-align: center;
+  color: white;
   }
 
 img {  
