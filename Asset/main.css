@@ -14,7 +14,9 @@ html{
     color: white;
   }
 
-img{
+img {  
+  padding: 5px;
+  border: 1px solid #51555d;
   max-width: 110px;
   border-radius: 50%;
 }
