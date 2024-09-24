@@ -10,7 +10,7 @@ html{
 /*Master Head*/
 .Master_Head {
   box-sizing: content-box;
-  padding: 60px;
+  padding: 30px;
   text-align: center;
   color: white;
   }
@@ -35,6 +35,11 @@ img {
     margin-right: 0; 
     width: 100%; 
     clear: both;
+}
+
+.nav-site {
+  box-sizing: content-box;
+  float: right;
 }
 
 .Master_Head_MenuItem ul { 
