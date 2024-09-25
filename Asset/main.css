@@ -1,68 +1,54 @@
-html{ 
-  background-color: #252a34;
-  font-size: 16px;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+/* Styles de base */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*Header*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 
-/*Master Head*/
-.Master_Head {
-  box-sizing: content-box;
-  padding: 30px;
+header {
+  background: #000000;
+  color: #fff;
+  padding: 6px 0;
   text-align: center;
-  color: white;
-  }
-
-img {  
-  padding: 5px;
-  border: 1px solid #51555d;
-  max-width: 110px;
-  border-radius: 50%;
 }
 
-.site-title {
-    width: 80px;
-    height: 80px;
-    float: left;
-    margin: 10px;
+header .logo img {
+  width: 80px;
 }
 
-.Master_Head_Menu{
-    float: left; 
-    margin-left: 0; 
-    margin-right: 0; 
-    width: 100%; 
-    clear: both;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.nav-site {
-  box-sizing: content-box;
-  float: right;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
-.Master_Head_MenuItem ul { 
-    margin: 0; 
-    padding: 0; 
-    clear: both; 
-    list-style-type: none;
-}
-.Master_Head_MenuItem {
-    width: 80px;
-    height: 80px;
-    float: right;
-    margin: 10px;
+
+
+section {
+  padding: 40px 20px;
+  text-align: center;
 }
 
-/* Body */
-body { 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
-    display: flex; 
-    min-height: 100vh; 
-    -webkit-box-orient: vertical; 
-    -webkit-box-direction: normal; 
-    -ms-flex-direction: column; 
-    flex-direction: column; 
+/* Team */
+
+/* Workflow GitHub */
+
+footer {
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
