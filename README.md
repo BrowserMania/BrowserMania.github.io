@@ -11,7 +11,7 @@ BrowserMania offers a cutting-edge, secure browsing experience by isolating web 
 - (preresiquite) [Prerequisites](#Prerequisites)
 
 ## Problem
-
+ 
 Web-based threats, including phishing attacks and malware, are constantly evolving, putting users' devices at risk when browsing the internet. The challenge is to provide a solution that isolates browsing activities, preventing malicious content from reaching user devices, while maintaining a fluid user experience.
 
 ## Objectif
