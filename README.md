@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# BrowserMania - Secure Web Browsing Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BrowserMania offers a cutting-edge, secure browsing experience by isolating web activities within sandboxed browser environments, managed through Kubernetes. This project is designed to protect users from web-based threats such as malware and phishing, all while maintaining a seamless user experience via real-time browser streaming with WebRTC.
 
-## Available Scripts
+## Table of Contents
+- [Problem](#Problem)
+- [Objectif](#Objectif)
+- (Non-exhaustive) [Features](#Features)
+- (Possible) [Future Features](#Future-Features)
+- (Alternative) [Solutions](#Solutions)
+- (preresiquite) [Prerequisites](#Prerequisites)
 
-In the project directory, you can run:
+## Problem
+ 
+Web-based threats, including phishing attacks and malware, are constantly evolving, putting users' devices at risk when browsing the internet. The challenge is to provide a solution that isolates browsing activities, preventing malicious content from reaching user devices, while maintaining a fluid user experience.
 
-### `npm start`
+## Objectif
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Enhanced Security: Isolate web browsing sessions to protect users from malicious content.
+- Scalability and Efficiency: Use Kubernetes to manage and scale multiple sandboxed browser instances efficiently.
+- Seamless User Experience: Ensure smooth browsing by streaming the browser display to the user's desktop using WebRTC.
+- Prevent Threats: Ensure that threats like malware are contained within isolated environments, never reaching the user’s device.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+-    Browser Replacement: This project is not designed to replace traditional browsers but to offer an additional security layer.
+-   Antivirus Alternative: BrowserMania is not intended to replace antivirus software but to complement existing security solutions.
+-    High-Resource Media Streaming: The focus is on secure web browsing, not on intensive media streaming or gaming.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Solutions
 
-### `npm run build`
+BrowserMania leverages Kubernetes to create and manage sandboxed browser environments. Each browser instance runs in a secure, isolated container, protecting the user's device from harmful content. The browser's display is streamed in real time using WebRTC, providing a responsive and secure user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Future-Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Kubernetes Orchestration: Scalable management of multiple isolated browser instances.
+- WebRTC Integration: Streams browser sessions to the user’s local browser in real-time.
+- Enhanced Security: Ensures that malicious content is contained and does not affect the user’s device.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
